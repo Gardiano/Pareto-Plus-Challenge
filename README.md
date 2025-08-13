@@ -24,6 +24,24 @@ seu-projeto/
 
  ```
 
+# Node 
+```
+https://nodejs.org/pt/download
+```
+
+### Puxar ou extrair a imagem de Docker da Node.js:
+docker pull node:20-alpine
+
+### Criar um contentor de Node.js e iniciar uma sessão de Shell:
+docker run -it --rm --entrypoint sh node:20-alpine
+
+### Consultar a versão da Node.js:
+node -v
+### Consultar a versão da npm:
+npm -v
+
+
+
  ## Instalação
 1) Crie uma pasta e adicione o script (por exemplo, `index.js`).
 
